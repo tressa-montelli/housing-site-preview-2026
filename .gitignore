@@ -1,0 +1,4 @@
+# Keep source presentations and review screenshots out of the public Pages output.
+*.pdf
+Screenshot*.png
+no car housing pic.png
