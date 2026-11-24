@@ -229,7 +229,6 @@
 .annual-support-copy ul{list-style:none;margin:18px 0 22px;padding:0;border-top:1px solid var(--line)}
 .annual-support-copy li{position:relative;padding:14px 0 14px 22px;border-bottom:1px solid var(--line)}
 .annual-support-copy li::before{content:"";position:absolute;left:2px;top:26px;width:6px;height:6px;border-radius:50%;background:var(--clay)}
-.annual-appeal-cta .appeal-thanks{margin:27px auto 0;color:#e1e5df;font-size:13px}
 @media(max-width:900px){
   .donate-intro{grid-template-columns:1fr .35fr;gap:6%;padding-top:65px;padding-bottom:65px}
   .donate-intro-mark{height:190px}
