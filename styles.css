@@ -323,3 +323,8 @@
 /* Keep the lower-left hero actions in one row when space allows. */
 .hero-actions{flex-direction:row;align-items:center;gap:30px;flex-wrap:wrap}
 @media(max-width:680px){.hero-actions{gap:16px}.hero-actions .button{padding:12px 14px;gap:10px}}
+
+/* Keep the hero copy above its shade while preserving bottom-anchored actions. */
+.hero-content{position:relative;z-index:1;align-self:stretch;height:100%}
+.hero-actions{left:40px}
+@media(max-width:680px){.hero-actions{left:25px}}
