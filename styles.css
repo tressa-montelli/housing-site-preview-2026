@@ -313,3 +313,9 @@
 .hero-content{align-self:flex-start;padding:clamp(96px,12vh,118px) 40px 0}
 @media(max-width:900px){.hero-content{align-self:flex-start;padding:clamp(94px,12vh,112px) 40px 0}}
 @media(max-width:680px){.hero-content{align-self:flex-start;padding:88px 25px 0}}
+
+/* Keep hero copy high and anchor the stacked calls to action at the image's lower left. */
+.hero-content{position:static;align-self:stretch;display:flex;align-items:flex-start}
+.hero-actions{position:absolute;left:max(40px,calc((100vw - 1240px)/2));bottom:clamp(76px,9vh,100px);z-index:2;display:flex;flex-direction:column;align-items:flex-start;gap:14px}
+@media(max-width:900px){.hero-actions{left:40px;bottom:clamp(76px,9vh,96px)}}
+@media(max-width:680px){.hero-actions{left:25px;bottom:72px}}
