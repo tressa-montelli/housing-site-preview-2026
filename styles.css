@@ -302,9 +302,9 @@
 @media(max-width:680px){.donor-wall{grid-template-columns:repeat(3,minmax(0,1fr));grid-auto-rows:52px}.donor-span-2{grid-column:span 2}.donor-span-3{grid-column:span 3}}
 @media(max-width:680px){.donor-wall{grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:48px}}
 .preview-indicator{font-size:9px;letter-spacing:.02em;color:#88877f}
-.visually-hidden{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important;font:1px/1px sans-serif!important}
-.hero-content{align-self:flex-start;padding-top:clamp(38px,8vh,82px)}
-.hero-copy-panel{max-width:600px;margin-left:0;padding:0;background:transparent;backdrop-filter:none;-webkit-backdrop-filter:none;border:0}
-.hero-copy-panel .hero-copy{max-width:580px;font-size:clamp(18px,2.1vw,21px);font-weight:600;line-height:1.55;margin:0 0 28px}
-@media(max-width:900px){.hero-content{padding-top:clamp(32px,7vh,65px)}}
-@media(max-width:680px){.hero-content{align-self:flex-start;padding:35px 25px 0}.hero-copy-panel{max-width:500px}.hero-copy-panel .hero-copy{font-size:18px;line-height:1.55;margin-bottom:22px}}
+.hero-brand-heading{position:absolute;top:clamp(24px,5vh,46px);left:max(40px,calc((100vw - 1240px)/2));z-index:2;margin:0;color:#fff;font:500 clamp(18px,2vw,24px)/1.1 var(--serif);letter-spacing:.02em;text-shadow:0 1px 4px rgba(0,0,0,.38)}
+.hero-content{align-self:flex-end;padding:0 40px clamp(96px,13vh,140px)}
+.hero-copy-panel{max-width:600px;margin:0;padding:0;background:transparent;backdrop-filter:none;-webkit-backdrop-filter:none;border:0}
+.hero-copy-panel .hero-copy{max-width:580px;font-size:clamp(18px,2.1vw,21px);font-weight:600;line-height:1.55;margin:0 0 28px;text-shadow:0 1px 4px rgba(0,0,0,.48)}
+@media(max-width:900px){.hero-content{padding-left:40px;padding-right:40px;padding-bottom:clamp(90px,12vh,120px)}}
+@media(max-width:680px){.hero-content{align-self:flex-end;padding:0 25px 78px}.hero-brand-heading{left:25px;top:24px;font-size:18px}.hero-copy-panel{max-width:500px}.hero-copy-panel .hero-copy{font-size:18px;line-height:1.55;margin-bottom:22px}}
