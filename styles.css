@@ -308,3 +308,8 @@
 .hero-copy-panel .hero-copy{max-width:580px;font-size:clamp(18px,2.1vw,21px);font-weight:600;line-height:1.55;margin:0 0 28px;text-shadow:0 1px 4px rgba(0,0,0,.48)}
 @media(max-width:900px){.hero-content{padding-left:40px;padding-right:40px;padding-bottom:clamp(90px,12vh,120px)}}
 @media(max-width:680px){.hero-content{align-self:flex-end;padding:0 25px 78px}.hero-brand-heading{left:25px;top:24px;font-size:18px}.hero-copy-panel{max-width:500px}.hero-copy-panel .hero-copy{font-size:18px;line-height:1.55;margin-bottom:22px}}
+
+/* Place homepage introduction directly below the site header. */
+.hero-content{align-self:flex-start;padding:clamp(96px,12vh,118px) 40px 0}
+@media(max-width:900px){.hero-content{align-self:flex-start;padding:clamp(94px,12vh,112px) 40px 0}}
+@media(max-width:680px){.hero-content{align-self:flex-start;padding:88px 25px 0}}
