@@ -219,6 +219,17 @@
 .donate-closing h2{font:500 clamp(38px,4.4vw,54px)/1.06 var(--serif);letter-spacing:-.02em;margin:0 0 12px}
 .donate-closing>div>p:last-child{font-size:13px;color:#e2e5df;margin:0}
 .donate-closing .button{white-space:nowrap}
+.annual-appeal-intro .donate-intro-copy h2{font:500 clamp(32px,3.6vw,44px)/1.08 var(--serif);letter-spacing:-.02em;max-width:680px;margin:0 0 20px}
+.annual-appeal-intro .donate-intro-copy>p:not(.eyebrow){max-width:680px;margin-bottom:18px}
+.annual-support{background:var(--white)}
+.annual-support-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:12%;align-items:start;max-width:1050px;margin:0 auto}
+.annual-support h2{font:500 clamp(38px,4.2vw,56px)/1.08 var(--serif);letter-spacing:-.02em;margin:0;max-width:470px}
+.annual-support-copy>p,.annual-support-copy li{font-size:15px;line-height:1.8;color:#5c5d56}
+.annual-support-copy>p{margin:0 0 20px}
+.annual-support-copy ul{list-style:none;margin:18px 0 22px;padding:0;border-top:1px solid var(--line)}
+.annual-support-copy li{position:relative;padding:14px 0 14px 22px;border-bottom:1px solid var(--line)}
+.annual-support-copy li::before{content:"";position:absolute;left:2px;top:26px;width:6px;height:6px;border-radius:50%;background:var(--clay)}
+.annual-appeal-cta .appeal-thanks{margin:27px auto 0;color:#e1e5df;font-size:13px}
 @media(max-width:900px){
   .donate-intro{grid-template-columns:1fr .35fr;gap:6%;padding-top:65px;padding-bottom:65px}
   .donate-intro-mark{height:190px}
@@ -237,6 +248,7 @@
   .donor-wall-heading,.donor-wall-footer{font-size:8px;letter-spacing:.1em}
   .donate-closing{padding:48px 25px;align-items:flex-start;flex-direction:column;gap:24px}
   .donate-closing h2{font-size:42px}
+  .annual-support-grid{grid-template-columns:1fr;gap:24px}
 }
 
 /* The recognition wall is architectural decoration, not a set of controls. */
