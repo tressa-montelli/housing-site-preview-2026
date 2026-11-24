@@ -7,7 +7,7 @@ menuButton.addEventListener('click', () => {
   navigation.classList.toggle('is-open', !isOpen);
 });
 navigation.addEventListener('click', (event) => {
-  if (event.target.closest('a') && window.matchMedia('(max-width: 680px)').matches) {
+  if (event.target.closest('a') && window.matchMedia('(max-width: 900px)').matches) {
     menuButton.setAttribute('aria-expanded', 'false');
     menuButton.setAttribute('aria-label', 'Open navigation');
     navigation.classList.remove('is-open');
